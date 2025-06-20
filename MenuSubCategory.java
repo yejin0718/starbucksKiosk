@@ -3,6 +3,7 @@ public enum MenuSubCategory {
     ESPRESSO(MenuCategory.DRINK, "에스프레소"),
     COLD_BREW(MenuCategory.DRINK, "콜드 브루"),
     BLONDE(MenuCategory.DRINK, "블론드"),
+    DECAF_COFFEE(MenuCategory.DRINK, "디카페인 커피"),
 
     //FOOD
     TASTY_JOURNEY(MenuCategory.FOOD, "테이스티 저니"),

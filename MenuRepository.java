@@ -53,6 +53,36 @@ public class MenuRepository {
         menuList.add(new Menu("블론드 에스프레소 마키야또", 3900, MenuCategory.DRINK, MenuSubCategory.BLONDE));
         menuList.add(new Menu("블론드 에스프레소 콘 파냐", 4100, MenuCategory.DRINK, MenuSubCategory.BLONDE));
 
+        //DRINK - DECAF_COFFEE
+        menuList.add(new Menu("아이스 디카페인 플랫 화이트", 6100, MenuCategory.DRINK, MenuSubCategory.DECAF_COFFEE));
+        menuList.add(new Menu("아이스 디카페인 카페 아메리카노", 5000, MenuCategory.DRINK, MenuSubCategory.DECAF_COFFEE));
+        menuList.add(new Menu("아이스 디카페인 카페 라떼", 5500, MenuCategory.DRINK, MenuSubCategory.DECAF_COFFEE));
+        menuList.add(new Menu("아이스 디카페인 스타벅스 돌체 라떼", 6400, MenuCategory.DRINK, MenuSubCategory.DECAF_COFFEE));
+        menuList.add(new Menu("아이스 디카페인 카라멜 마키아또", 6400, MenuCategory.DRINK, MenuSubCategory.DECAF_COFFEE));
+        menuList.add(new Menu("아이스 디카페인 카페 모카", 6000, MenuCategory.DRINK, MenuSubCategory.DECAF_COFFEE));
+        menuList.add(new Menu("아이스 디카페인 카푸치노", 5500, MenuCategory.DRINK, MenuSubCategory.DECAF_COFFEE));
+        menuList.add(new Menu("아이스 디카페인 화이트 초콜릿 모카", 6400, MenuCategory.DRINK, MenuSubCategory.DECAF_COFFEE));
+        menuList.add(new Menu("디카페인 커피 스타벅스 더블 샷", 5600, MenuCategory.DRINK, MenuSubCategory.DECAF_COFFEE));
+        menuList.add(new Menu("디카페인 바닐라 스타벅스 더블 샷", 5600, MenuCategory.DRINK, MenuSubCategory.DECAF_COFFEE));
+        menuList.add(new Menu("디카페인 헤이즐넛 스타벅스 더블 샷", 5600, MenuCategory.DRINK, MenuSubCategory.DECAF_COFFEE));
+        menuList.add(new Menu("디카페인 에스프레소", 4200, MenuCategory.DRINK, MenuSubCategory.DECAF_COFFEE));
+        menuList.add(new Menu("디카페인 에스프레소 콘 파나", 4400, MenuCategory.DRINK, MenuSubCategory.DECAF_COFFEE));
+        menuList.add(new Menu("디카페인 에스프레소 마키아또", 4200, MenuCategory.DRINK, MenuSubCategory.DECAF_COFFEE));
+        menuList.add(new Menu("아이스 1/2디카페인 플랫 화이트", 6100, MenuCategory.DRINK, MenuSubCategory.DECAF_COFFEE));
+        menuList.add(new Menu("아이스 1/2디카페인 스타벅스 돌체 라떼", 6400, MenuCategory.DRINK, MenuSubCategory.DECAF_COFFEE));
+        menuList.add(new Menu("아이스 1/2디카페인 카라멜 마키아또", 6400, MenuCategory.DRINK, MenuSubCategory.DECAF_COFFEE));
+        menuList.add(new Menu("아이스 1/2디카페인 카페 라떼", 5500, MenuCategory.DRINK, MenuSubCategory.DECAF_COFFEE));
+        menuList.add(new Menu("아이스 1/2디카페인 카페 아메리카노", 5000, MenuCategory.DRINK, MenuSubCategory.DECAF_COFFEE));
+        menuList.add(new Menu("아이스 1/2디카페인 카페 모카", 6000, MenuCategory.DRINK, MenuSubCategory.DECAF_COFFEE));
+        menuList.add(new Menu("아이스 1/2디카페인 카푸치노", 5500, MenuCategory.DRINK, MenuSubCategory.DECAF_COFFEE));
+        menuList.add(new Menu("아이스 1/2디카페인 화이트 초콜릿 모카", 6400, MenuCategory.DRINK, MenuSubCategory.DECAF_COFFEE));
+        menuList.add(new Menu("1/2디카페인 커피 스타벅스 더블 샷", 5600, MenuCategory.DRINK, MenuSubCategory.DECAF_COFFEE));
+        menuList.add(new Menu("1/2디카페인 바닐라 스타벅스 더블 샷", 5600, MenuCategory.DRINK, MenuSubCategory.DECAF_COFFEE));
+        menuList.add(new Menu("1/2디카페인 헤이즐넛 스타벅스 더블 샷", 5600, MenuCategory.DRINK, MenuSubCategory.DECAF_COFFEE));
+        menuList.add(new Menu("1/2디카페인 에스프레소", 4200, MenuCategory.DRINK, MenuSubCategory.DECAF_COFFEE));
+        menuList.add(new Menu("1/2디카페인 에스프레소 콘 파나", 4400, MenuCategory.DRINK, MenuSubCategory.DECAF_COFFEE));
+        menuList.add(new Menu("1/2디카페인 에스프레소 마키아또", 4200, MenuCategory.DRINK, MenuSubCategory.DECAF_COFFEE));
+
         //FOOD - BLONDE
         menuList.add(new Menu("스코프 초콜릿 칩 스콘", 4900, MenuCategory.FOOD, MenuSubCategory.TASTY_JOURNEY));
 
