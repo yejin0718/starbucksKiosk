@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class Kiosk {
@@ -44,9 +46,9 @@ public class Kiosk {
     private void showCategoryScreen() {
         while (true) {
             System.out.println("\n== 메뉴 대분류 선택 ==");
-            System.out.println("1. DRINK");
-            System.out.println("2. FOOD");
-            System.out.println("3. GOODS");
+            for (MenuCategory category : MenuCategory.values()) {
+                System.out.println(category.ordinal() + 1 + ". " + category.getDisplayName());
+            }
             System.out.println("4. 장바구니 조회");
             System.out.println("0. 처음으로");
             System.out.print(">> ");
@@ -83,19 +85,22 @@ public class Kiosk {
     //소분류 선택 화면
     private void showSubCategoryScreen(MenuCategory category) {
         while (true) {
-            System.out.println("\n== 소분류 선택 (" + category + ") ==");
+            System.out.println("\n== 소분류 선택 (" + category.getDisplayName() + ") ==");
 
-            int index = 1;
-            MenuSubCategory[] subs = MenuSubCategory.values();
-            MenuSubCategory[] filteredSubs = java.util.Arrays.stream(subs)
-                    .filter(s -> s.getParentCategory() == category)
-                    .toArray(MenuSubCategory[]::new);
-
-            for (int i = 0; i < filteredSubs.length; i++) {
-                System.out.println((i + 1) + ". " + filteredSubs[i]);
+            // 소분류 필터링
+            List<MenuSubCategory> filteredSubs = new ArrayList<>();
+            for (MenuSubCategory sub : MenuSubCategory.values()) {
+                if (sub.getParentCategory() == category) {
+                    filteredSubs.add(sub);
+                }
             }
 
-            int cartIndex = filteredSubs.length + 1;
+            // 번호와 함께 출력
+            for (int i = 0; i < filteredSubs.size(); i++) {
+                System.out.println((i + 1) + ". " + filteredSubs.get(i).getDisplayName());
+            }
+
+            int cartIndex = filteredSubs.size() + 1;
             System.out.println(cartIndex + ". 장바구니 조회");
             System.out.println("0. 이전으로");
             System.out.print(">> ");
@@ -113,8 +118,9 @@ public class Kiosk {
                 return;
             }
 
-            if (input >= 1 && input <= filteredSubs.length) {
-                showMenuListScreen(filteredSubs[input - 1]);
+            if (input >= 1 && input <= filteredSubs.size()) {
+                MenuSubCategory selected = filteredSubs.get(input - 1);
+                showMenuListScreen(selected);
                 return;
             } else {
                 System.out.println("잘못된 입력입니다.");
