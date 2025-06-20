@@ -101,16 +101,24 @@ public class MenuRepository {
         menuList.add(new Menu("화이트 타이거 프라푸치노", 6500, MenuCategory.DRINK, MenuSubCategory.FRAPPUCCINO));
         menuList.add(new Menu("인절미 제주 말차 크림 프라푸치노", 8500, MenuCategory.DRINK, MenuSubCategory.FRAPPUCCINO));
 
-        //FOOD - BLONDE
+        //FOOD - TASTY_JOURNEY
         menuList.add(new Menu("스코프 초콜릿 칩 스콘", 4900, MenuCategory.FOOD, MenuSubCategory.TASTY_JOURNEY));
 
-        //FOOD - BLONDE
+        //FOOD - STARBUCKS_MORNING_SET
         menuList.add(new Menu("에그 클럽 샌드위치", 4500, MenuCategory.FOOD, MenuSubCategory.STARBUCKS_MORNING_SET));
         menuList.add(new Menu("멜티 치즈 베이컨 토스트", 5700, MenuCategory.FOOD, MenuSubCategory.STARBUCKS_MORNING_SET));
+        menuList.add(new Menu("더블 에그 브렉퍼스트 & 체다 샌드위치", 5700, MenuCategory.FOOD, MenuSubCategory.STARBUCKS_MORNING_SET));
+        menuList.add(new Menu("치킨 베이컨 랩", 6500, MenuCategory.FOOD, MenuSubCategory.STARBUCKS_MORNING_SET));
+        menuList.add(new Menu("탕종 플레인 베이글", 3300, MenuCategory.FOOD, MenuSubCategory.STARBUCKS_MORNING_SET));
 
-        //FOOD - BLONDE
+        //FOOD - CAKE_AND_MINI_DESSERT
         menuList.add(new Menu("블랙 사파이어 치즈 케이크", 9900, MenuCategory.FOOD, MenuSubCategory.CAKE_AND_MINI_DESSERT));
         menuList.add(new Menu("과일 생크림 케이크", 7900, MenuCategory.FOOD, MenuSubCategory.CAKE_AND_MINI_DESSERT));
+        menuList.add(new Menu("딸기 촉촉 초코 생크림 케이크", 8300, MenuCategory.FOOD, MenuSubCategory.CAKE_AND_MINI_DESSERT));
+        menuList.add(new Menu("초코 품은 부생카", 5500, MenuCategory.FOOD, MenuSubCategory.CAKE_AND_MINI_DESSERT));
+        menuList.add(new Menu("레이디핑거 티라미수 케이크", 6900, MenuCategory.FOOD, MenuSubCategory.CAKE_AND_MINI_DESSERT));
+        menuList.add(new Menu("바스크 초코 치즈 케이크", 7300, MenuCategory.FOOD, MenuSubCategory.CAKE_AND_MINI_DESSERT));
+        menuList.add(new Menu("생크림 크레이프 롤", 7500, MenuCategory.FOOD, MenuSubCategory.CAKE_AND_MINI_DESSERT));
 
         //GOODS - TUMBLER
         menuList.add(new Menu("블랙 사파이어 치즈 케이크", 9900, MenuCategory.GOODS, MenuSubCategory.TUMBLER));
