@@ -9,7 +9,19 @@ public class MenuRepository {
 
         //DRINK - ESPRESSO
         menuList.add(new Menu("아이스 플랫 화이트", 5800, MenuCategory.DRINK, MenuSubCategory.ESPRESSO));
-        menuList.add(new Menu("아이스 카페 아메리카노", 470, MenuCategory.DRINK, MenuSubCategory.ESPRESSO));
+        menuList.add(new Menu("아이스 카페 아메리카노", 4700, MenuCategory.DRINK, MenuSubCategory.ESPRESSO));
+        menuList.add(new Menu("아이스 카페 라떼", 5200, MenuCategory.DRINK, MenuSubCategory.ESPRESSO));
+        menuList.add(new Menu("아이스 스타벅스 돌체 라떼", 6100, MenuCategory.DRINK, MenuSubCategory.ESPRESSO));
+        menuList.add(new Menu("아이스 카페 모카", 5700, MenuCategory.DRINK, MenuSubCategory.ESPRESSO));
+        menuList.add(new Menu("아이스 카푸치노", 5200, MenuCategory.DRINK, MenuSubCategory.ESPRESSO));
+        menuList.add(new Menu("아이스 카라멜 마키야또", 6100, MenuCategory.DRINK, MenuSubCategory.ESPRESSO));
+        menuList.add(new Menu("아이스 화이트 초콜릿 모카", 6100, MenuCategory.DRINK, MenuSubCategory.ESPRESSO));
+        menuList.add(new Menu("커피 스타벅스 더블 샷", 5300, MenuCategory.DRINK, MenuSubCategory.ESPRESSO));
+        menuList.add(new Menu("바닐라 스타벅스 더블 샷", 5300, MenuCategory.DRINK, MenuSubCategory.ESPRESSO));
+        menuList.add(new Menu("헤이즐넛 스타벅스 더블 샷", 5300, MenuCategory.DRINK, MenuSubCategory.ESPRESSO));
+        menuList.add(new Menu("에스프레소", 3900, MenuCategory.DRINK, MenuSubCategory.ESPRESSO));
+        menuList.add(new Menu("에스프레소 마키야또", 3900, MenuCategory.DRINK, MenuSubCategory.ESPRESSO));
+        menuList.add(new Menu("에스프레소 콘 파나", 4100, MenuCategory.DRINK, MenuSubCategory.ESPRESSO));
 
         //DRINK - COLD_BREW
         menuList.add(new Menu("씨솔트 카라멜 코드 브루", 6500, MenuCategory.DRINK, MenuSubCategory.COLD_BREW));
