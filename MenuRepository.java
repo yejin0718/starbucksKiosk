@@ -87,6 +87,20 @@ public class MenuRepository {
         menuList.add(new Menu("쿨 라임 피지오", 6100, MenuCategory.DRINK, MenuSubCategory.STARBUCKS_FIZZIO));
         menuList.add(new Menu("라이트 핑크 자몽 피지오", 6300, MenuCategory.DRINK, MenuSubCategory.STARBUCKS_FIZZIO));
 
+        //DRINK - FRAPPUCCINO
+        menuList.add(new Menu("자몽 망고 코코 프라푸치노", 7100, MenuCategory.DRINK, MenuSubCategory.FRAPPUCCINO));
+        menuList.add(new Menu("칩 앤 칩 모카 프라푸치노", 6700, MenuCategory.DRINK, MenuSubCategory.FRAPPUCCINO));
+        menuList.add(new Menu("더블 에스프레소 칩 프라푸치노", 6500, MenuCategory.DRINK, MenuSubCategory.FRAPPUCCINO));
+        menuList.add(new Menu("제주 말차 크림 프라푸치노", 6500, MenuCategory.DRINK, MenuSubCategory.FRAPPUCCINO));
+        menuList.add(new Menu("자바칩 프라푸치노", 6500, MenuCategory.DRINK, MenuSubCategory.FRAPPUCCINO));
+        menuList.add(new Menu("초콜릿 크림 칩 프라푸치노", 6200, MenuCategory.DRINK, MenuSubCategory.FRAPPUCCINO));
+        menuList.add(new Menu("카라멜 프라푸치노", 6100, MenuCategory.DRINK, MenuSubCategory.FRAPPUCCINO));
+        menuList.add(new Menu("에스프레소 프라푸치노", 5700, MenuCategory.DRINK, MenuSubCategory.FRAPPUCCINO));
+        menuList.add(new Menu("제주 까망 크림 프라푸치노", 7500, MenuCategory.DRINK, MenuSubCategory.FRAPPUCCINO));
+        menuList.add(new Menu("제주 쑥떡 크림 프라푸치노", 7500, MenuCategory.DRINK, MenuSubCategory.FRAPPUCCINO));
+        menuList.add(new Menu("화이트 타이거 프라푸치노", 6500, MenuCategory.DRINK, MenuSubCategory.FRAPPUCCINO));
+        menuList.add(new Menu("인절미 제주 말차 크림 프라푸치노", 8500, MenuCategory.DRINK, MenuSubCategory.FRAPPUCCINO));
+
         //FOOD - BLONDE
         menuList.add(new Menu("스코프 초콜릿 칩 스콘", 4900, MenuCategory.FOOD, MenuSubCategory.TASTY_JOURNEY));
 

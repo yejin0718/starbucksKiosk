@@ -5,6 +5,7 @@ public enum MenuSubCategory {
     BLONDE(MenuCategory.DRINK, "블론드"),
     DECAF_COFFEE(MenuCategory.DRINK, "디카페인 커피"),
     STARBUCKS_FIZZIO(MenuCategory.DRINK, "스타벅스 피지오"),
+    FRAPPUCCINO(MenuCategory.DRINK, "프라푸치노"),
 
     //FOOD
     TASTY_JOURNEY(MenuCategory.FOOD, "테이스티 저니"),
