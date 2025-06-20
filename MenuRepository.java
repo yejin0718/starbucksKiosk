@@ -83,6 +83,10 @@ public class MenuRepository {
         menuList.add(new Menu("1/2디카페인 에스프레소 콘 파나", 4400, MenuCategory.DRINK, MenuSubCategory.DECAF_COFFEE));
         menuList.add(new Menu("1/2디카페인 에스프레소 마키아또", 4200, MenuCategory.DRINK, MenuSubCategory.DECAF_COFFEE));
 
+        //DRINK - STARBUCKS_FIZZIO
+        menuList.add(new Menu("쿨 라임 피지오", 6100, MenuCategory.DRINK, MenuSubCategory.STARBUCKS_FIZZIO));
+        menuList.add(new Menu("라이트 핑크 자몽 피지오", 6300, MenuCategory.DRINK, MenuSubCategory.STARBUCKS_FIZZIO));
+
         //FOOD - BLONDE
         menuList.add(new Menu("스코프 초콜릿 칩 스콘", 4900, MenuCategory.FOOD, MenuSubCategory.TASTY_JOURNEY));
 
